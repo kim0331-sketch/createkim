@@ -9,10 +9,6 @@ module top_module(
     input cin,
     output [2:0] cout,
     output [2:0] sum );
-    wire c1;
-    wire c2;
-    assign cout[0]=c1;
-    assign cout[1]=c2;
     fulladder u_fulladder_0(.a(a[0]),
                             .b(b[0]),
                             .cin(cin),
